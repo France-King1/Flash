@@ -1,14 +1,11 @@
 {
-  "name": "Flash-Md",
+    "name": "FLASH-MD",
   "version": "2.0.0",
   "description": "",
   "main": "flash.js",
-  "type": "commonjs",
   "scripts": {
-    "test": "node flash.js",
-    "s": "node flash.js",
-    "flash": "pm2 start flash.js --attach",
-    "franceking": "pm2 start franceking.js --attach",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node flash.js",
     "c": "tsc"
   },
   "keywords": [
